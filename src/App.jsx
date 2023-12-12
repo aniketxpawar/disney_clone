@@ -1,13 +1,15 @@
 import Header from "./components/Header"
 import Slider from "./components/Slider"
 import ProductionHouse from "./components/ProductionHouse"
+import GenreMovieList from "./components/GenreMovieList"
 
 function App() {
   return (
-    <div className="h-screen w-screen">
+    <div>
       <Header/>
       <Slider/>
-      <ProductionHouse />
+      <ProductionHouse/>
+      <GenreMovieList/>
     </div>
   )
 }

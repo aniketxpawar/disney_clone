@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 const HeaderItem = ({name, Icon}) => {
   return (

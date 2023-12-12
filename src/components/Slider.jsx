@@ -14,7 +14,7 @@ const Slider = () => {
             const response = await GlobalApi.getTrendingVideos()
             if(response.status == 200){
                 setMovieList(response.data.results)
-                console.log(response.data.results)
+                //console.log(response.data.results)
             }
         }
         getTrendingVideos()
