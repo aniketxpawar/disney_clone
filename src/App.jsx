@@ -5,7 +5,7 @@ import GenreMovieList from "./components/GenreMovieList"
 
 function App() {
   return (
-    <div>
+    <div className="w-screen overflow-hidden">
       <Header/>
       <Slider/>
       <ProductionHouse/>
